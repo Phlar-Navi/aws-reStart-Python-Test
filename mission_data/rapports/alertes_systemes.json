@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2029-04-10T18:00:00Z",
+    "phase": "approche_mars",
+    "systemes_en_alerte": [
+      "propulsion"
+    ]
+  }
+]

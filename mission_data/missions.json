@@ -61,6 +61,40 @@
       ],
       "duree_jours": 365,
       "budget_millions_usd": 3100
+    },
+    {
+      "id": "MSN-006",
+      "nom": "Artemis IV",
+      "destination": "Lune",
+      "date_lancement": "2026-09-15",
+      "statut": "planifiée",
+      "equipage": [
+        "Cmdt. Elena Vasquez",
+        "Dr. Kenji Tanaka",
+        "Ing. Fatou Diallo"
+      ],
+      "duree_jours": 21,
+      "budget_millions_usd": 4200
+    },
+    {
+      "id": "MSI-007",
+      "nom": "A",
+      "destination": "A",
+      "date_lancement": "2026-09-15",
+      "statut": "conception",
+      "equipage": [],
+      "duree_jours": 2000,
+      "budget_millions_usd": 20.0
+    },
+    {
+      "id": "MSI-008",
+      "nom": "Q",
+      "destination": "Q",
+      "date_lancement": "      \"date_lancement\": \"2026-09-15\",",
+      "statut": "conception",
+      "equipage": [],
+      "duree_jours": 200000,
+      "budget_millions_usd": 2.0
     }
   ]
 }

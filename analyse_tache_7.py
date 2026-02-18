@@ -7,7 +7,7 @@ chemin = "mission_data/telemetries.json"
 def analyser_telemetrie(chemin_json):
     with open(chemin_json, 'r', encoding="UTF-8") as file:
         content = json.load(file)
-        telemetries = content["telemetries"]
+        telemetries = content["releves"]
         file.close()
 
         print("\nPhase          | Altitude          | Vitesse          | Carburant")
@@ -63,9 +63,9 @@ def analyser_telemetrie(chemin_json):
     with open(chemin_sortie, "w", encoding="utf-8") as file:
         json.dump(alertes_detectees, file, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ {len(alertes_detectees)} relevé(s) avec alerte sauvegardé(s) dans {chemin_sortie}")
+    print(f"\n {len(alertes_detectees)} relevé(s) avec alerte sauvegardé(s) dans {chemin_sortie}")
 
-analyser_telemetrie(chemin)
+#analyser_telemetrie(chemin)
 
 
             
