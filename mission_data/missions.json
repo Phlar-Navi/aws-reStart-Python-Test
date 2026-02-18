@@ -6,7 +6,11 @@
       "destination": "Lune",
       "date_lancement": "2026-09-15",
       "statut": "planifiée",
-      "equipage": ["Cmdt. Elena Vasquez", "Dr. Kenji Tanaka", "Ing. Fatou Diallo"],
+      "equipage": [
+        "Cmdt. Elena Vasquez",
+        "Dr. Kenji Tanaka",
+        "Ing. Fatou Diallo"
+      ],
       "duree_jours": 21,
       "budget_millions_usd": 4200
     },
@@ -16,7 +20,12 @@
       "destination": "Mars",
       "date_lancement": "2028-07-20",
       "statut": "en_preparation",
-      "equipage": ["Cmdt. Yuri Petrov", "Dr. Amara Osei", "Ing. Lucas Fernandez", "Dr. Mei Chen"],
+      "equipage": [
+        "Cmdt. Yuri Petrov",
+        "Dr. Amara Osei",
+        "Ing. Lucas Fernandez",
+        "Dr. Mei Chen"
+      ],
       "duree_jours": 680,
       "budget_millions_usd": 18500
     },
@@ -46,7 +55,10 @@
       "destination": "Orbite solaire",
       "date_lancement": "2027-01-22",
       "statut": "planifiée",
-      "equipage": ["Cmdt. Sofia Lindqvist", "Dr. Rashid Al-Farsi"],
+      "equipage": [
+        "Cmdt. Sofia Lindqvist",
+        "Dr. Rashid Al-Farsi"
+      ],
       "duree_jours": 365,
       "budget_millions_usd": 3100
     }
