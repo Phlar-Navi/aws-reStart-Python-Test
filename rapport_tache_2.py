@@ -35,4 +35,4 @@ def create_directories(chemin):
             os.mkdir("mission_data/archives")
     listContent(chemin)
 
-verify_and_list()
+#verify_and_list()

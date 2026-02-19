@@ -37,9 +37,9 @@ def budget_total(missions):
         sum += element['budget_millions_usd']
     return sum
 
-missions = charger(fichier)
-tab_missions = missions["missions"]
-afficher(tab_missions)
-print("\n::::: Budget total de toutes les missions: ", budget_total(tab_missions), "M$")
-identifie_duree(tab_missions)
+#missions = charger(fichier)
+#tab_missions = missions["missions"]
+#afficher(tab_missions)
+#print("\n::::: Budget total de toutes les missions: ", budget_total(tab_missions), "M$")
+#identifie_duree(tab_missions)
 #print(missions["missions"]) # Apparament, ceci est un tableau d'objets....

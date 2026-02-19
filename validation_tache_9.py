@@ -73,7 +73,7 @@ def verifier_carburant(releve):
 
     return True
 
-# Cas valide
+""" # Cas valide
 try:
     valider_mission({
         "id": "MSN-001",
@@ -116,3 +116,4 @@ try:
 except CarburantError as e:
     print(f"🔴 {e}")
 
+ """

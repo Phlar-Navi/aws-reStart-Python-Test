@@ -47,7 +47,7 @@ def supprimer_mission(chemin_json, id_mission):
             else:
                 print("::::: SUPPRESSION ANNULEE")
 
-ajouter_mission(chemin, {
+""" ajouter_mission(chemin, {
       "id": "MSN-006",
       "nom": "Artemis IV",
       "destination": "Lune",
@@ -56,4 +56,4 @@ ajouter_mission(chemin, {
       "equipage": ["Cmdt. Elena Vasquez", "Dr. Kenji Tanaka", "Ing. Fatou Diallo"],
       "duree_jours": 21,
       "budget_millions_usd": 4200
-    },)
+    },) """

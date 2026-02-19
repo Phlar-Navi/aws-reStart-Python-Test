@@ -60,9 +60,6 @@ def telemetrie_realtime():
             print("Aucune donnée télémétrique disponible.")
             return
 
-        # 🔹 Supporte 2 formats :
-        # 1. Liste directe
-        # 2. {"releves": [...]}
         if isinstance(data, list):
             releves = data
         elif isinstance(data, dict) and "releves" in data:
@@ -85,7 +82,6 @@ def telemetrie_realtime():
         if carburant is None:
             raise CarburantError("Champ carburant_pct manquant.")
 
-        # 🔹 Indicateur couleur
         if carburant > 50:
             indicateur = "🟢"
         elif 20 <= carburant <= 50:
@@ -99,7 +95,6 @@ def telemetrie_realtime():
         print(f"   Vitesse    : {vitesse} km/s")
         print(f"   Carburant  : {carburant}%")
 
-        # 🔹 Vérification carburant (réutilise Tâche 9)
         verifier_carburant(dernier)
 
         log_action("Consultation télémétrie temps réel")
